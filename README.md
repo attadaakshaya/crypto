@@ -36,13 +36,13 @@ Crypto_Portfolio/
 - Detect risky or scam tokens proactively.
 - Generate accurate P&L and tax-ready summaries.
 - Deliver a unified, risk-aware investment dashboard.
-- 
+  
 
 🏗️ System Architecture
 
 User → React Frontend → Spring Boot Backend → External APIs → MySQL Database → Analytics → UI
 
-🔹 Layers
+🔹Layers
 
 - **User Interface Layer** – Dashboards, charts, alerts, portfolio insights  
 - **Business Logic Layer** – Portfolio computation, risk scoring, tax logic  
@@ -66,7 +66,7 @@ User → React Frontend → Spring Boot Backend → External APIs → MySQL Data
 - Vite
 - Tailwind CSS
 
-🔹 External APIs
+🔹External APIs
 - CoinGecko → Market pricing
 - Binance → Exchange integration
 - Etherscan → Contract verification
@@ -90,7 +90,7 @@ User → React Frontend → Spring Boot Backend → External APIs → MySQL Data
 - Manual wallet asset tracking
 - Holdings & transaction history
 
- 📈 Analytics
+📈 Analytics
 - Real-time P&L tracking
 - Realized & unrealized gains
 - Historical price charts
@@ -108,7 +108,7 @@ User → React Frontend → Spring Boot Backend → External APIs → MySQL Data
 - Tax event hints
 
 
- 🗄️ Database Design
+🗄️ Database Design
 - Users
 - Exchanges
 - ApiKeys
