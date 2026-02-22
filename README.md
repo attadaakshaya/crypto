@@ -9,8 +9,9 @@ An intelligent full-stack crypto portfolio management system that aggregates hol
 - Users unknowingly hold scam or rug-pull tokens.
 - No integrated system combines portfolio tracking, risk detection, and tax reporting.
 
- 🏗️ Project Structure
+🏗️ Project Structure
 
+```
 Crypto_Portfolio/
 │
 ├── Crypto_Backend/        # Spring Boot backend
@@ -25,7 +26,7 @@ Crypto_Portfolio/
 │   └── ...
 │
 └── .gitignore
-
+```
 
 
 🎯 Objective
