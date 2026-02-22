@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+    <defs>
+        <linearGradient id="outerRing" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stopColor="#e9d5ff" />
+            <stop offset="40%" stopColor="#c084fc" />
+            <stop offset="60%" stopColor="#818cf8" />
+            <stop offset="100%" stopColor="#2563eb" />
+        </linearGradient>
+        
+        <linearGradient id="innerCyanRing" x1="0" y1="100" x2="100" y2="0" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stopColor="#06b6d4" />
+            <stop offset="50%" stopColor="#22d3ee" />
+            <stop offset="100%" stopColor="#818cf8" />
+        </linearGradient>
+    </defs>
+
+    <!-- Thicker Outer Purple Ring for better scaling down -->
+    <circle cx="50" cy="50" r="42" stroke="url(#outerRing)" stroke-width="12" opacity="0.9" />
+
+    <!-- Thicker Cyan Ring -->
+    <circle cx="50" cy="50" r="29" stroke="url(#innerCyanRing)" stroke-width="11" />
+
+    <!-- Dark Core -->
+    <circle cx="50" cy="50" r="23" fill="#020617" />
+
+    <!-- Thicker and Bolder Bitcoin Logo perfectly centered and scaled to fill the core -->
+    <g transform="translate(18, 15) scale(0.68)" fill="#ffffff">
+        <path d="M55.5 66.5C59.5 66.5 63 63.5 63 59.5C63 55.5 59.5 52.5 55.5 52.5L38 52.5L38 66.5L55.5 66.5ZM53.5 42.5C57.5 42.5 61 39.5 61 35.5C61 31.5 57.5 28.5 53.5 28.5L38 28.5L38 42.5L53.5 42.5ZM30 20L30 26L24 26L24 32L30 32L30 68L24 68L24 74L30 74L30 80L36 80L36 74L42 74L42 80L48 80L48 75.5C59 75.5 68 70 68 60C68 53 63 48 57 46C61 44 66 39 66 32C66 22 57 16 48 16L48 10L42 10L42 16L36 16L36 10L30 20Z" />
+    </g>
+    
+    <!-- Simplified Bright Gloss that doesn't disappear when small -->
+    <path d="M 20 25 Q 50 5 80 25" stroke="white" stroke-width="6" stroke-linecap="round" opacity="0.4" fill="none" />
+</svg>
